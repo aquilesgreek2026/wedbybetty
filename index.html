@@ -479,6 +479,23 @@
     </style>
 </head>
 <body>
+    <!-- Hidden forms for Netlify form detection -->
+    <form name="wedding-contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="tel" name="phone" />
+        <input type="date" name="wedding-date" />
+        <textarea name="message"></textarea>
+    </form>
+    
+    <form name="wedding-contact-es" netlify netlify-honeypot="bot-field" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <input type="tel" name="phone" />
+        <input type="date" name="wedding-date" />
+        <textarea name="message"></textarea>
+    </form>
+    
     <div class="lang-toggle" onclick="toggleLanguage()">
         <span class="en">🇺🇸 EN | 🇪🇸 ES</span>
         <span class="es">🇪🇸 ES | 🇺🇸 EN</span>
