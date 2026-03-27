@@ -601,8 +601,9 @@
                     </div>
                     
                     <div class="contact-form-container">
-                        <form name="wedding-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success.html">
+                        <form name="wedding-contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/success.html">
                             <input type="hidden" name="form-name" value="wedding-contact" />
+                            <input type="hidden" name="email-to" value="hangis@gmail.com" />
                             <p style="display:none;">
                                 <label>Don't fill this out: <input name="bot-field" /></label>
                             </p>
@@ -755,8 +756,9 @@
                     </div>
                     
                     <div class="contact-form-container">
-                        <form name="wedding-contact-es" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success-es.html">
+                        <form name="wedding-contact-es" method="POST" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" action="/success-es.html">
                             <input type="hidden" name="form-name" value="wedding-contact-es" />
+                            <input type="hidden" name="email-to" value="hangis@gmail.com" />
                             <p style="display:none;">
                                 <label>No llenes esto: <input name="bot-field" /></label>
                             </p>

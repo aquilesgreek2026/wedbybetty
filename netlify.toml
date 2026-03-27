@@ -16,6 +16,8 @@
 [context.branch-deploy]
   environment = { NODE_ENV = "preview" }
 
+
+
 # Force HTTPS redirects
 [[redirects]]
   from = "http://wedbybetty.com/*"
