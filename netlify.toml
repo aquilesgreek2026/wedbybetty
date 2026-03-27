@@ -1,0 +1,30 @@
+# Netlify configuration for Wed by Betty
+
+[build]
+  publish = "."
+  command = "echo 'No build step required - static HTML'"
+
+# Production branch
+[context.production]
+  environment = { NODE_ENV = "production" }
+
+# Staging branch
+[context.staging]
+  environment = { NODE_ENV = "staging" }
+
+# Branch deploy previews
+[context.branch-deploy]
+  environment = { NODE_ENV = "preview" }
+
+# Force HTTPS redirects
+[[redirects]]
+  from = "http://wedbybetty.com/*"
+  to = "https://wedbybetty.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.wedbybetty.com/*"
+  to = "https://www.wedbybetty.com/:splat"
+  status = 301
+  force = true
