@@ -1,0 +1,17 @@
+{
+  "name": "Wed by Betty",
+  "short_name": "Wed by Betty",
+  "description": "Bilingual wedding officiant serving Oceanside and San Diego County.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfbf7",
+  "theme_color": "#d4a574",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
