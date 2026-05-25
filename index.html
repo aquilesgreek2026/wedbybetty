@@ -121,7 +121,9 @@
           }
         }
       ],
-      "sameAs": []
+      "sameAs": [
+        "https://www.yelp.com/biz/wed-by-betty-oceanside"
+      ]
     }
     </script>
     
@@ -537,6 +539,25 @@
         footer p {
             margin-bottom: 10px;
         }
+
+        .footer-links {
+            margin-top: 18px;
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--white);
+        }
         
         /* Spanish Toggle */
         .es {
@@ -729,6 +750,9 @@
                         <div class="contact-item">
                             📱 <a href="tel:+17604923054">(760) 492-3054</a>
                         </div>
+                        <div class="contact-item">
+                            ⭐ <a href="https://www.yelp.com/biz/wed-by-betty-oceanside" target="_blank" rel="noopener noreferrer">Find Wed by Betty on Yelp</a>
+                        </div>
                         <p style="margin-top: 30px; color: var(--text-light); font-size: 0.95rem;">
                             Or fill out the form and we'll get back to you within 24 hours.
                         </p>
@@ -884,6 +908,9 @@
                         <div class="contact-item">
                             📱 <a href="tel:+17604923054">(760) 492-3054</a>
                         </div>
+                        <div class="contact-item">
+                            ⭐ <a href="https://www.yelp.com/biz/wed-by-betty-oceanside" target="_blank" rel="noopener noreferrer">Encuentra Wed by Betty en Yelp</a>
+                        </div>
                         <p style="margin-top: 30px; color: var(--text-light); font-size: 0.95rem;">
                             O llena el formulario y te responderemos en 24 horas.
                         </p>
@@ -932,6 +959,9 @@
         <p>&copy; 2026 Wed by Betty - Bilingual Wedding Officiant</p>
         <p class="en">Serving all of San Diego County with love 💕</p>
         <p class="es">Sirviendo todo el Condado de San Diego con amor 💕</p>
+        <div class="footer-links">
+            <a href="https://www.yelp.com/biz/wed-by-betty-oceanside" target="_blank" rel="noopener noreferrer">Yelp</a>
+        </div>
     </footer>
 
     <script>
