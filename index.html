@@ -305,7 +305,7 @@
             justify-content: center;
             overflow: hidden;
         }
-        .photo img { width: 100%; height: 100%; object-fit: cover; }
+        .photo img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
         .photo-note {
             font-family: var(--mono);
             font-size: 12px;
@@ -319,11 +319,13 @@
             bottom: 44px;
             right: 36px;
             max-width: 290px;
-            background: var(--page);
+            background: rgba(251, 249, 245, .82);
+            -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
             padding: 26px 30px;
             box-shadow: 0 14px 34px rgba(30, 27, 23, .14);
         }
-        .quote-card blockquote { font-family: var(--serif); font-style: italic; font-size: 20px; line-height: 1.4; color: var(--ink); }
+        .quote-card blockquote, .quote-card p { font-family: var(--serif); font-style: italic; font-size: 20px; line-height: 1.4; color: var(--ink); margin: 0; }
         .quote-card cite { display: block; margin-top: 14px; font-style: normal; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); }
 
         /* ---------- Grids ---------- */
@@ -550,12 +552,10 @@
                 </div>
             </div>
             <div class="photo">
-                <!-- Replace with a real photo: <img src="/assets/photos/hero.jpg" alt="Beatriz officiating a beach ceremony in Oceanside"> -->
-                <span class="photo-note">photo &mdash; couple + Betty, ocean behind</span>
+                <img src="/assets/photos/betty-couple-ocean-1.jpg" alt="Beatriz reading a ceremony to a couple under a floral arch, the ocean behind them" width="750" height="1000">
                 <div class="quote-card">
-                    <blockquote class="en">&ldquo;Half our family speaks Spanish. Betty made every single person cry.&rdquo;</blockquote>
-                    <blockquote class="es">&ldquo;La mitad de nuestra familia habla español. Betty hizo llorar a todos.&rdquo;</blockquote>
-                    <cite>Yelp &middot; 5.0</cite>
+                    <p class="en">Betty works around your families. The language, the place, how long it runs.</p>
+                    <p class="es">Betty se acomoda a sus familias. El idioma, el lugar, cuánto dura.</p>
                 </div>
             </div>
         </section>
@@ -607,7 +607,7 @@
                     <p class="lede es">Hay parejas que quieren diez minutos en un acantilado con dos testigos. Otras quieren cuarenta, con lecturas, bendición, lazo y anillos. Las dos cosas están bien.</p>
                 </div>
                 <div class="photo">
-                    <span class="photo-note">photo &mdash; Betty reading vows with a couple</span>
+                    <img src="/assets/photos/betty-couple-ocean-2.jpg" alt="Beatriz with a couple and their young son after a clifftop ceremony above the Pacific at sunset" loading="lazy" width="750" height="1000">
                 </div>
             </div>
 
@@ -882,7 +882,7 @@
 
                     <article class="town">
                         <div class="town-photos">
-                            <div class="photo"><span class="photo-note">photo &mdash; Carlsbad seawall bluff</span></div>
+                            <div class="photo"><img src="/assets/photos/carlsbad-seawall-bluff.jpg" alt="Sandstone bluff and beach along the Carlsbad seawall, looking north toward the harbor jetty" loading="lazy" width="900" height="506"></div>
                             <div class="photo"><span class="photo-note">lagoon</span></div>
                         </div>
                         <div class="town-body">
@@ -902,8 +902,8 @@
 
                     <article class="town">
                         <div class="town-photos">
-                            <div class="photo"><span class="photo-note">photo &mdash; Encinitas garden ceremony</span></div>
-                            <div class="photo"><span class="photo-note">Swami's</span></div>
+                            <div class="photo"><img src="/assets/photos/encinitas-oceanfront-ceremony.jpg" alt="Oceanfront wedding ceremony setup in Encinitas at sunset, with white roses, gold candelabras and candles overlooking the Pacific" loading="lazy" width="900" height="675"></div>
+                            <div class="photo"><img src="/assets/photos/encinitas-moonlight-beach.jpg" alt="Moonlight Beach in Encinitas seen from the bluff above" loading="lazy" width="600" height="450"></div>
                         </div>
                         <div class="town-body">
                             <h3>Encinitas</h3>
@@ -963,7 +963,7 @@
                     <article class="town">
                         <div class="town-photos">
                             <div class="photo"><span class="photo-note">photo &mdash; La Jolla cove ceremony</span></div>
-                            <div class="photo"><span class="photo-note">Balboa</span></div>
+                            <div class="photo"><img src="/assets/photos/betty-couple-sd-marina.jpg" alt="Beatriz with newlyweds on the lawn at the San Diego marina, sailboats behind them" loading="lazy" width="500" height="667"></div>
                         </div>
                         <div class="town-body">
                             <h3>La Jolla &amp; San Diego</h3>
