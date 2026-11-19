@@ -16,6 +16,10 @@
 [context.branch-deploy]
   environment = { NODE_ENV = "preview" }
 
+# Pull request deploy previews
+[context.deploy-preview]
+  environment = { NODE_ENV = "preview" }
+
 
 
 # Force HTTPS redirects

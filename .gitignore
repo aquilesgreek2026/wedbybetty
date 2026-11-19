@@ -3,3 +3,9 @@ node_modules/
 *.log
 .env
 .netlify/
+
+# Source photos kept locally: full-size originals, not deployed
+assets/photos/_originals/
+
+# Design handoff bundle (contains a stale duplicate index.html)
+Wed by Betty redesign directions/
