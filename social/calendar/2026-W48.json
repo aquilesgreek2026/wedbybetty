@@ -1,0 +1,136 @@
+{
+  "week": "2026-W48",
+  "timezone": "America/Los_Angeles",
+  "generated": "2026-11-20",
+  "note": "SAMPLE week built by Claude Code to preview the agent's output. Status values: draft, needs_review, approved, scheduled, published, rejected. Only 'approved' may be scheduled.",
+  "posts": [
+    {
+      "id": "2026-W48-1",
+      "day": "Tue 2026-11-24",
+      "time": "12:00 PM",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "pillar": "License & legal made easy",
+      "goal": "Educate couples on the confidential license; drive saves/shares and calls",
+      "format": "Single image 1080x1350 (could become a 4-slide carousel)",
+      "image": "social/out/2026-W48/post-1-license.jpg",
+      "image_source": "assets/photos/delmar-bluff-palms.jpg (own photo, scenery) + text overlay",
+      "image_notes": "No people. Original photo is 900x675; use a higher-res original if available.",
+      "caption": "¿Sabían que pueden sacar su licencia de matrimonio sin ir al condado?\n\nBetty es una notary public autorizada por el condado, así que ella misma la emite: en la consulta o el mismo día de la boda. Nada de cita en el centro ni segundo viaje. Ya firmada, Betty la registra con el condado.\n\nSolo necesitan una identificación oficial con foto cada uno, estar los dos presentes y vivir juntos como pareja.\n\nGuárdenlo para cuando lo necesiten, o llámennos al (760) 492-3054.\n\n—————\n🇺🇸 Good news if you were dreading a trip downtown: you don't have to make one.\n\nBetty is an authorized notary public, so she issues your confidential marriage license herself, either at your consult or on the wedding day. She files it with the county after you're married.\n\nAll you need is a government photo ID each, both of you there, and already living together as a couple.\n\nSave this for later, or call (760) 492-3054. More at wedbybetty.com.\n\n🔗 wedbybetty.com\n📍 Oceanside · San Diego County\n#LicenciaDeMatrimonio #BodaEnSanDiego #OficianteDeBodas #MatrimonioCivil #BodaBilingue #MarriageLicense #SanDiegoWedding #WeddingOfficiant #OceansideWedding #NorthCountySD",
+      "alt_es": "Palmeras y el océano en un parque junto a la playa de Del Mar, con el texto «Su licencia, sin ir al condado».",
+      "alt_en": "Palm trees and the ocean at a beachside park in Del Mar, with the text “Your license, no county trip.”",
+      "facts_used": [
+        "Betty is an authorized notary public and issues the confidential license herself (consult or wedding day)",
+        "No county appointment",
+        "Betty files with the county afterward",
+        "Requirements: photo ID each, both present, living together"
+      ],
+      "flags": [
+        "Confirm the wording about 'confidential license' and that 'living together as spouses' is the right plain-language phrase.",
+        "No fee or price mentioned on purpose."
+      ],
+      "status": "needs_review",
+      "facebook_suffix": "\n\n🔗 https://wedbybetty.com",
+      "image_text_es": "Su licencia, sin ir al condado.",
+      "image_text_en": "Your license, no county trip.",
+      "reviewer_notes": "Lint pass 1 flagged tú/ustedes mixing and mirrored English. Rewrote to 'ustedes' throughout, reframed the English hook, changed image text to 'Su licencia'."
+    },
+    {
+      "id": "2026-W48-2",
+      "day": "Fri 2026-11-27",
+      "time": "7:30 PM",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "pillar": "Ceremony & experience",
+      "goal": "Show the bilingual ceremony; get comments (engagement) and inquiries",
+      "format": "Single image 1080x1350",
+      "image": "social/out/2026-W48/post-2-bilingual.jpg",
+      "image_source": "assets/photos/betty-couple-ocean-1.jpg (own photo of a real ceremony) + text overlay",
+      "image_notes": "Real couple. Consent for social media unknown. DO NOT PUBLISH until Betty confirms the couple agreed. Photo is 750x1000: replace with original.",
+      "caption": "Nadie se queda sentado en una boda que no entiende.\n\nBetty oficia en español, en inglés o en los dos, y escribe los dos idiomas juntos en el guion, no los traduce al final. Cada pareja lo arma a su manera: línea por línea, un idioma para los votos y otro para las lecturas, o todo en uno solo.\n\n¿Cómo lo harían ustedes? Cuéntennos en los comentarios. Para hablar con Betty: (760) 492-3054.\n\n—————\n🇺🇸 When your guests speak different languages, the ceremony shouldn't leave anyone out.\n\nBetty officiates in English, Spanish or both, and writes the languages into the script together. Some couples go line by line, some split it by moment (vows in one language, readings in the other), and some stay in a single language the whole time.\n\nWhich would you choose? Tell us below. To talk with Betty, call (760) 492-3054.\n\n📍 San Diego County\n#CeremoniaBilingue #BodaBilingue #OficianteDeBodas #BodaEnSanDiego #BodaEnLaPlaya #BilingualWedding #WeddingOfficiant #BeachWedding #SanDiegoWedding #NorthCountySD",
+      "alt_es": "Betty oficia una ceremonia en la playa bajo un arco de flores blancas y rosas, con la pareja frente a frente y el océano de fondo.",
+      "alt_en": "Betty officiates a beach ceremony under an arch of white and pink flowers, the couple facing each other with the ocean behind them.",
+      "facts_used": [
+        "Ceremonies in English, Spanish, or both",
+        "Three bilingual formats: line by line, split by moment, one language"
+      ],
+      "flags": [
+        "BLOCKER: confirm the couple in this photo agreed to social-media use.",
+        "Thursday 11/26 is Thanksgiving, so this slot moved to Friday evening."
+      ],
+      "status": "needs_review",
+      "facebook_suffix": "\n\n🔗 https://wedbybetty.com",
+      "image_text_es": "Sus votos, en los dos idiomas.",
+      "image_text_en": "Your vows, in both of your languages.",
+      "reviewer_notes": "Removed the three-bullet list and 👉 marker, dropped emoji, rewrote English hook so it is not a mirror."
+    },
+    {
+      "id": "2026-W48-3",
+      "day": "Sat 2026-11-28",
+      "time": "10:00 AM",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "pillar": "Locations",
+      "goal": "Local inspiration + local SEO; show Oceanside is home base (no travel fee)",
+      "format": "Single image 1080x1350",
+      "image": "social/out/2026-W48/post-3-oceanside.jpg",
+      "image_source": "assets/photos/oceanside-harbor.jpg (own photo, scenery) + text overlay",
+      "image_notes": "No people. Original is 500x747 (low-res, looks soft at 1080). Replace with higher-res original.",
+      "caption": "Oceanside es la ciudad de Betty.\n\nAquí no hay cargo por viaje, y los lugares sobran: el puerto, el muelle, Buccaneer Beach, Heritage Park, la laguna de Buena Vista. Si piensan llevar sillas, arco o música, muchas veces hay que pedir permiso a la ciudad, así que háganlo con tiempo.\n\nCuéntennos qué lugar les gusta y Betty les ayuda con el resto: (760) 492-3054 🌴\n\n—————\n🇺🇸 Oceanside is Betty's hometown, so there's no travel fee here.\n\nPick your spot: the harbor, the pier, Buccaneer Beach, Heritage Park or the Buena Vista Lagoon bluff. If you want chairs, an arch or music, ask the city for a permit early.\n\nTell us where you're thinking and Betty will help you sort out the rest. Call or text (760) 492-3054.\n\n📍 Oceanside Harbor\n#BodasOceanside #BodaEnLaPlaya #BodaEnSanDiego #OficianteDeBodas #BodaIntima #OceansideWedding #OceansideHarbor #BeachWedding #WeddingOfficiant #NorthCountySD",
+      "alt_es": "El faro rojo y blanco del puerto de Oceanside entre palmeras, con nubes en el cielo.",
+      "alt_en": "The red-and-white lighthouse at Oceanside Harbor among palm trees under a cloudy sky.",
+      "facts_used": [
+        "Oceanside is Betty's home town; no travel fee",
+        "Spots: pier amphitheatre and beach, Buccaneer Beach Park, harbor beach lawn, Heritage Park garden, Buena Vista Lagoon bluff",
+        "Reserved areas, chairs, arches, amplified music usually need city permits"
+      ],
+      "flags": [
+        "Confirm 'no travel fee in Oceanside' is still true.",
+        "Each city's permit rules differ; the tip is kept general on purpose."
+      ],
+      "status": "needs_review",
+      "facebook_suffix": "\n\n🔗 https://wedbybetty.com",
+      "image_text_es": "Su boda, en nuestra ciudad.",
+      "image_text_en": "Your wedding, in our hometown.",
+      "reviewer_notes": "Switched to 'ustedes', cut 'Un consejo' phrasing, shortened hook, English reordered around 'Pick your spot'."
+    },
+    {
+      "id": "2026-W48-4",
+      "day": "Sun 2026-11-29",
+      "time": "6:00 PM",
+      "platforms": [
+        "instagram",
+        "facebook"
+      ],
+      "pillar": "Offer & CTA (engagement season)",
+      "goal": "Catch newly engaged couples over the holiday weekend; drive calls",
+      "format": "Single image 1080x1350",
+      "image": "social/out/2026-W48/post-4-engaged.jpg",
+      "image_source": "assets/photos/oceanside-pier.jpg (own photo, scenery) + text overlay",
+      "image_notes": "No identifiable people (tiny silhouettes only).",
+      "caption": "Si alguien dijo que sí en estas fiestas, ya saben a quién llamar.\n\nCuando quieran, hablamos 20 minutos: la fecha, el lugar, los idiomas y cómo van con los papeles. Sin compromiso. Betty se encarga de la ceremonia y de la licencia, y va a donde ustedes estén.\n\nLlamen o escriban al (760) 492-3054, o entren al link en la bio. 💍\n\n—————\n🇺🇸 Said yes this holiday season? Congratulations.\n\nWhenever you're ready, we can talk for 20 minutes about the date, the place, the languages and the paperwork. No commitment. Betty handles the ceremony and the license, and she'll come to you.\n\nCall or text (760) 492-3054, or use the link in our bio.\n\n📍 Oceanside · San Diego County\n#BodaEnSanDiego #OficianteDeBodas #NoviasSanDiego #BodaBilingue #MatrimonioCivil #SanDiegoWedding #WeddingOfficiant #OceansideWedding #BilingualWedding",
+      "alt_es": "El muelle de Oceanside al atardecer, con palmeras y el texto «¿Se comprometieron? Felicidades».",
+      "alt_en": "Oceanside Pier at sunset with palm trees and the text “Just engaged? Congratulations.”",
+      "facts_used": [
+        "Free 20-minute call, no commitment (date, place, languages, paperwork)",
+        "Betty handles ceremony and license and travels to the couple",
+        "Phone (760) 492-3054"
+      ],
+      "flags": [
+        "The site says the online scheduler is 'being set up'; the post points to phone/text and 'link in bio' (make sure the bio link works).",
+        "Hashtag #Engaged is generic; fine to drop."
+      ],
+      "status": "needs_review",
+      "facebook_suffix": "\n\n🔗 https://wedbybetty.com",
+      "image_text_es": "¿Se comprometieron? Felicidades.",
+      "image_text_en": "Just engaged? Congratulations.",
+      "reviewer_notes": "New hook so caption does not repeat the image text; removed 👉; one emoji at the end."
+    }
+  ]
+}
