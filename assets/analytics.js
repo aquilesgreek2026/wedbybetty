@@ -1,9 +1,9 @@
 /* Google Analytics 4 for wedbybetty.com.
- * Replace GA_MEASUREMENT_ID with the real "G-XXXXXXXXXX" ID from
- * GA4 > Admin > Data streams. While it is the placeholder, nothing loads or is sent.
+ * GA4 Measurement ID (from
+ * GA4 > Admin > Data streams). Nothing loads unless it matches G-XXXXXXXXXX.
  * Tracking is skipped on localhost and Netlify deploy previews. */
 (function () {
-  var GA_MEASUREMENT_ID = 'GA_MEASUREMENT_ID';
+  var GA_MEASUREMENT_ID = 'G-XSXMZG8KS7';
   var host = location.hostname;
   var isProd = host === 'wedbybetty.com' || host === 'www.wedbybetty.com';
   if (!/^G-[A-Z0-9]+$/.test(GA_MEASUREMENT_ID) || !isProd) return;
