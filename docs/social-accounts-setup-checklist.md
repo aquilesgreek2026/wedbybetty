@@ -96,7 +96,7 @@ Ceremony + license, no county trip
 📍 Oceanside · San Diego
 ```
 
-**Link in bio:** `https://wedbybetty.com` (later a simple link page if more links are needed: booking, WhatsApp, reviews).
+**Link in bio:** `https://wedbybetty.com/?utm_source=instagram&utm_medium=bio` (UTM tag so GA4 attributes visits to Instagram) (later a simple link page if more links are needed: booking, WhatsApp, reviews).
 
 **Highlights to create (covers use brand photos):** `Licencia` / `License` · `Ceremonias` / `Ceremonies` · `Lugares` / `Locations` · `Reseñas` / `Reviews` · `Preguntas` / `FAQ`.
 

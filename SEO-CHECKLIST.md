@@ -128,9 +128,11 @@
 - [ ] Monitor search queries, clicks, impressions
 
 ### Google Analytics
-- [ ] Set up GA4: https://analytics.google.com
-- [ ] Track: form submissions, phone clicks, page views
-- [ ] Set up conversion goals
+- [x] Tracking code added (`assets/analytics.js`): page views, phone clicks, email clicks, form submits, and a `generate_lead` event on the success pages
+- [ ] Create GA4 property + web data stream for wedbybetty.com: https://analytics.google.com
+- [ ] Put the `G-XXXXXXXXXX` Measurement ID into `GA_MEASUREMENT_ID` in `assets/analytics.js`
+- [ ] In GA4 > Admin > Events, mark `generate_lead` as a key event (conversion); optionally `click_phone` too
+- [ ] Use UTM links in social bios/posts, e.g. `https://wedbybetty.com/?utm_source=instagram&utm_medium=bio`
 
 ## 🚀 Quick Wins (Do These First!)
 
